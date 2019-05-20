@@ -21,5 +21,4 @@ So I can access my favourite websites
 I want to be able to see a list of my saved bookmarks
 ```
 
-![Domain Model for User Story 1]
-(https://github.com/breycarr/bookmark_manager/blob/master/Untitled%20Diagram.jpg?raw=true)
+![Domain Model for User Story 1](https://github.com/breycarr/bookmark_manager/blob/master/Untitled%20Diagram.jpg?raw=true)
