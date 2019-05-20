@@ -13,6 +13,8 @@ The aim of this project is to create a web app that manages bookmarks for the us
 * Filter bookmarks by tag
 * Users are restricted to manage only their own bookmarks
 
+---
+
 ## User story 1
 
 ```
