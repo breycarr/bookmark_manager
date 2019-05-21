@@ -1,4 +1,13 @@
-ENV['RACK_ENV'] = 'test'
+require_relative './setup_test_database'
+
+# This line is recommended by Makers, but we're not sure why.
+ENV['ENVIRONMENT'] = 'test'
+
+RSpec.configure do |config|
+  config.before(:each) do
+    setup_test_database
+  end
+end
 
 # Brings in the cointents of the 'app.rb file which is one directory level up'
 require File.join(File.dirname(__FILE__), '..', 'app.rb')

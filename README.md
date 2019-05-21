@@ -21,6 +21,13 @@ The aim of this project is to create a web app that manages bookmarks for the us
 3. Connect to the database with the command `\c bookmark_manager;`
 4. Run query saved in ./db/migrations/01_create_bookmarks_table.sql
 
+## Using the test environment
+
+1. connect to `pqsl` via the command line
+2. Create the database using the command `CREATE DATABASE bookmark_manager_test;`
+3. Connect to the database with the command `\c bookmark_manager_test;`
+4. Run query saved in ./db/migrations/01_create_bookmarks_table.sql
+
 ---
 
 ## User story 1
