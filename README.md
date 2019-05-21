@@ -12,6 +12,14 @@ The aim of this project is to create a web app that manages bookmarks for the us
 * Tag bookmarks into categories
 * Filter bookmarks by tag
 * Users are restricted to manage only their own bookmarks
+---
+
+## How to Use
+
+1. connect to `pqsl` via the command line
+2. Create the database using the command `CREATE DATABASE bookmark_manager;`
+3. Connect to the database with the command `\c bookmark_manager;`
+4. Run query saved in ./db/migrations/01_create_bookmarks_table.sql
 
 ---
 
