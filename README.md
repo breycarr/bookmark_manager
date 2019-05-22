@@ -39,3 +39,12 @@ I want to be able to see a list of my saved bookmarks
 ```
 
 ![Domain Model for User Story 1](https://github.com/breycarr/bookmark_manager/blob/master/images/models/bookmark_list.jpg?raw=true)
+
+---
+
+## User story 2
+
+```
+As a user
+Because I will find new websites that I like
+I want to be able to add new websites to my list of saved bookmarks

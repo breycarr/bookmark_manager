@@ -16,4 +16,13 @@ describe Bookmarks do
       expect(bookmarks.show).to include 'http://www.bbc.co.uk'
     end
   end
+
+  describe '#add' do
+    it "adds a bookmark to the bookmarks database" do
+      connection = PG.connect(dbname: 'bookmark_manager_test')
+      bookmarks.add('http://www.google.com')
+      connection = PG.connect(dbname: 'bookmark_manager_test')
+      expect(bookmarks.show).to include('http://www.google.com')
+    end
+  end
 end
